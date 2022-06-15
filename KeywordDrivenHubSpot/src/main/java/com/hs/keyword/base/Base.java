@@ -36,7 +36,7 @@ public class Base {
     public Properties init_properties(){
         prop = new Properties();
         try {
-            FileInputStream ip = new FileInputStream("/home/ubuntu/KeywordDrivenHubSpot/src/" +
+            FileInputStream ip = new FileInputStream("/home/ubuntu/KeywordDrivenFrameworkApproach/KeywordDrivenHubSpot/src/" +
                     "main/java/com/hs/keyword/config/config.properties");
             prop.load(ip);
         } catch (FileNotFoundException e) {
